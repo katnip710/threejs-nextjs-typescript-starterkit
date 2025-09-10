@@ -179,7 +179,7 @@ This starter kit is designed for progressive learning:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This does not have a license and can be used for your learning needs! Happy coding <3
 
 ## 🙏 Acknowledgments
 
