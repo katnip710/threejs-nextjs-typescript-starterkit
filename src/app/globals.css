@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animated gradient for homepage */
+@layer utilities {
+  .bg-gradient-animated {
+    background: linear-gradient(135deg, #0f0c29, #24243e, #302b63);
+    background-size: 400% 400%;
+    animation: gradient-shift 15s ease infinite;
+  }
+
+  ul {
+    @apply list-none text-xs;
+  }
+
+  li {
+    @apply list-disc list-inside pb-1;
+  }
+}
+
+@layer base {
+  /* Custom base styles using Tailwind */
+  body {
+    @apply font-sans bg-gray-950 text-gray-100;
+  }
+  
+  /* Three.js canvas styles */
+  canvas {
+    @apply block;
+    touch-action: none;
+  }
+}
